@@ -1,0 +1,169 @@
+.register-box ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.register-box ul li{
+	display: inline-block;
+}
+
+.register-box ul li a{
+	text-decoration: none;
+	color: #272727;
+	font-size: 18px;
+	padding: 5px 10px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;  /* for smooting hover */
+}
+
+.register-box ul li a:hover{
+	background-color: #1086CA; 	/* coloring of hover */
+	color: #fff;		/* color font after hover */
+}
+
+.register-box ul li.active a{
+	background-color: #1086CA; 	/* coloring of hover */
+	color: #fff;
+}
+
+.main{
+	max-width: 1300px;
+	margin: auto;
+}
+
+.main .search{
+	float: right;
+	margin-top: 18px;
+}
+.main .search input[type="text"]{
+	padding: 6px;
+	margin-top: 10px;
+	border: none;
+	font-size: 17px;
+	background-color: #f3f3f3;
+}
+
+.main .search button{
+	float: right;
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+	background-color: #ddd;
+	cursor: pointer;
+	transition:0.6s all;
+}
+
+.main .search button:hover{
+	background-color: dodgerblue;
+	color: #fff;
+}
+
+/******************************************************************
+********************************************************************/
+
+.dictionary{
+	width: 100%;
+	padding: 72px 90px 72px 90px;
+	float: left;
+	clear: both;
+	display: block;
+	background-color: #9DB0A2;
+	/*background: #c5e7e8;*/
+}
+
+.dictionary h2{
+	font-size: 35px;
+	line-height: 35px;
+	margin-right: 140px;
+	margin-bottom: 40px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	color: #000;
+}
+
+.dictionary .dis-btn{
+	position: absolute;
+	display: block;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+
+.dictionary .dis-btn .btn{									/* button styling*/
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;   /* smothing of hover */
+}
+
+
+.dictionary .dis-btn .btn:hover{
+	background-color: #fff; 	/* coloring of hover */
+	color: #000;			/* coloring of font after hover */
+}
+/***********************************************************
+**************************************************************
+***************************************************************/
+
+footer{
+	width: 100%;
+	font-size: 14px;
+	color: #fff;
+	float: left;
+	clear: both;
+	padding: 26px 0px;
+	text-align: center;
+	line-height: 23px;
+	background-color: #272727;
+}
+
+/******************************************************************
+*****************************************************************/
+
+.content{
+	width: 100%;
+	padding: 72px 0px 72px 0px;
+	background-color: #F7E6FF;
+	background-size: cover;
+	clear: both;
+	float: left;
+}
+
+.content h2{
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	color: #0d0dd6;
+}
+
+
+.content p{
+	/*color: #00004d;*/
+	margin-left: 20px;
+	font-size: 18px;
+	line-height: 15px;
+	margin-bottom: 20px;
+	
+}
+
+.content img{
+	max-width: 60%;
+	float: right;
+	height: auto;
+	margin-bottom: 20px;
+	vertical-align: middle;
+}
+
+.content h4{
+	text-align: left;
+	margin-left: 30px;
+	font-size: 27px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	/*color: #000;*/
+}
